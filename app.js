@@ -30,7 +30,7 @@
 
 async function doMath() {
 try {
-    let result = await slowMath.add(6, 2);
+    let result = await slowMath.add(1, 1);
     console.log(result);
     result = await slowMath.multiply(result, 2);
     console.log(result);
